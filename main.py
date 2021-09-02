@@ -17,11 +17,10 @@ print(milftrain_force)
 print("The GE train supplies " + str(milftrain_force) + " pussyNewtons of force.")
 
 
-def get_energy(mass, c ):
-    return c
+def get_energy(mass):
     return mass * c ** 2
 
-milf_energy = get_energy(milf_mass * c)
+milf_energy = get_energy(milf_mass)
 print("A 1kg M.I.L.F energy supplies " + str(milf_energy) + " pussyJoules.")
 
 
